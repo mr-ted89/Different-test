@@ -1,0 +1,23 @@
+ * {font-family:verdana;}
+a.a_id {color:#00f;}
+a.button {background-color:#fff; border:2px #0037ff solid; color:#0037ff; font-size:14px; font-weight:bold;
+        padding:10px; text-decoration:none; transition:background-color,0.5s; vertical-align:middle;}
+footer {text-align:center;}
+table {margin:auto;}
+table.pay_output td {border:1px #000 dashed; font-family:'Courier New', Courier, monospace; padding:10px;}
+@media(max-width:767px)
+{
+    a.a_id:active {color:#f00;}
+    a.button {display:block; margin-top:20px;}
+    a.button:active {background-color:#0037ff; color:#fff;}
+    div.enquiry,div#payments {margin:50px auto; text-align:center; width:100%;}
+    input {display:block; margin:auto; padding:10px; width:94%;}
+    table {width:100%;}
+}
+@media(min-width:768px)
+{
+    a.a_id:hover {color:#f00;}
+    a.button:hover {background-color:#0037ff; color:#fff;}
+    div.enquiry,div#payments {margin:50px auto; text-align:center; width:600px;}
+    input {padding:10px; vertical-align:middle; width:175px;}
+}

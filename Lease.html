@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="style.css?v=2" rel="stylesheet" type="text/css"/>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="program.js?v=3" type="text/javascript"></script>
+        <title>Rental Payments</title>
+    </head>
+    <body>        
+        <div class="enquiry">
+            <h1>Rental Payments</h1>
+            <h4>Type in ID or leave blank to view tenants</h4>
+            <input id="leaseID" placeholder="LeaseID e.g. 12 or lease-a" type="text" value="123"/>
+            <a class="button" href="#" onclick="window.showPayment(document.getElementById('leaseID').value); return false;">Show Payments/Tenants</a>
+        </div> <hr/>
+        <div id="payments">
+            &nbsp;
+        </div> <hr/>
+        <footer>
+            Program documentation available in source code.
+        </footer>
+    </body>
+</html>
